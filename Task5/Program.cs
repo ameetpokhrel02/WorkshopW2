@@ -1,5 +1,5 @@
 // Task 5: DateTime
-Console.WriteLine("=== TASK 5: DateTime ===");
+Console.WriteLine("TASK 5: DateTime");
 
 DateTime birthDate = new DateTime(2004, 4, 11);
 DateTime currentDate = DateTime.Now;

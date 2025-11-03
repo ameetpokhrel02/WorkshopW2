@@ -1,4 +1,4 @@
-Console.WriteLine("=== TASK 1: Basic Variables ===");
+Console.WriteLine("TASK 1: Basis Varibales Decleared");
 
 string userName = "Amit Pokhrel";
 int luckyNumber = 0;

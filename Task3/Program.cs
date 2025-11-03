@@ -1,5 +1,5 @@
 // Task 3: Data Types
-Console.WriteLine("=== TASK 3: Data Types ===");
+Console.WriteLine("TASK 3: Data Types");
 
 byte byteValue = 255;
 short shortValue = 32000;
