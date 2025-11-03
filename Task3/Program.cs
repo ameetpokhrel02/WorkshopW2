@@ -1,6 +1,6 @@
-// Task 3: Data Types
 Console.WriteLine("TASK 3: Data Types");
 
+// Declare variables of different data types
 byte byteValue = 255;
 short shortValue = 32000;
 int intValue = 100;
@@ -11,9 +11,7 @@ decimal decimalValue = 3.14m;
 char charValue = 'A';
 bool boolValue = true;
 
-string intToString = 42.ToString();
-double stringToDouble = double.Parse("3.14");
-
+// Print each type
 Console.WriteLine($"byte: {byteValue}");
 Console.WriteLine($"short: {shortValue}");
 Console.WriteLine($"int: {intValue}");
@@ -23,5 +21,3 @@ Console.WriteLine($"double: {doubleValue}");
 Console.WriteLine($"decimal: {decimalValue}");
 Console.WriteLine($"char: {charValue}");
 Console.WriteLine($"bool: {boolValue}");
-Console.WriteLine($"int to string: {intToString}");
-Console.WriteLine($"string to double: {stringToDouble}");
