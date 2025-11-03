@@ -1,4 +1,4 @@
-Console.WriteLine("TASK 6:");
+Console.WriteLine("TASK 6: Collections");
 
 List<string> fruits = new List<string> { "Lemon", "Avacado", "Kiwi" };
 
@@ -10,9 +10,9 @@ fruits.Add("Lemon");
 Console.WriteLine($"After add - Fourth fruit: {fruits[3]}");
 
 fruits.Remove("Avacado");
+Console.WriteLine($"After remove - Count: {fruits.Count}");
 Console.WriteLine($"After remove - First fruit: {fruits[0]}");
 Console.WriteLine($"After remove - Second fruit: {fruits[1]}");
-Console.WriteLine($"After remove - Third fruit: {fruits[2]}");
 
 Dictionary<int, string> fruitDict = new Dictionary<int, string>
 {
