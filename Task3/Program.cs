@@ -1,22 +1,19 @@
-// Task 3: Data Types and Type Conversion
+// Task 3: Data Types
 Console.WriteLine("=== TASK 3: Data Types ===");
 
-// Declare and initialize variables of different types
 byte byteValue = 255;
 short shortValue = 32000;
-int intValue = 2147483647;
-long longValue = 9223372036854775807;
+int intValue = 100;
+long longValue = 1000000;
 float floatValue = 3.14f;
-double doubleValue = 3.14159265359;
-decimal decimalValue = 3.141592653589793238m;
+double doubleValue = 3.14159;
+decimal decimalValue = 3.14m;
 char charValue = 'A';
 bool boolValue = true;
 
-// Type conversions
-string intToString = 42.ToString(); // Convert integer to string
-double stringToDouble = double.Parse("3.14"); // Convert string to double
+string intToString = 42.ToString();
+double stringToDouble = double.Parse("3.14");
 
-// Print all variables with labels
 Console.WriteLine($"byte: {byteValue}");
 Console.WriteLine($"short: {shortValue}");
 Console.WriteLine($"int: {intValue}");

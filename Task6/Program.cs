@@ -1,50 +1,26 @@
-// Task 6: Generic Collections (List and Dictionary)
+// Task 6: Collections
 Console.WriteLine("=== TASK 6: Collections ===");
 
-// List operations - Amit's favorite fruits
-List<string> favoriteFruits = new List<string> { "Apple", "Mango", "Orange" };
+List<string> fruits = new List<string> { "Apple", "Mango", "Orange" };
 
-Console.WriteLine("Amit's original fruits list:");
-PrintList(favoriteFruits);
+Console.WriteLine($"Original fruits: {string.Join(", ", fruits)}");
 
-// Add new fruit
-favoriteFruits.Add("Banana");
-Console.WriteLine("After adding Banana:");
-PrintList(favoriteFruits);
+fruits.Add("Banana");
+Console.WriteLine($"After adding Banana: {string.Join(", ", fruits)}");
 
-// Remove one fruit
-favoriteFruits.Remove("Orange");
-Console.WriteLine("After removing Orange:");
-PrintList(favoriteFruits);
+fruits.Remove("Orange");
+Console.WriteLine($"After removing Orange: {string.Join(", ", fruits)}");
 
-// Dictionary operations - Amit's fruit collection
-Dictionary<int, string> fruitDictionary = new Dictionary<int, string>
+Dictionary<int, string> fruitDict = new Dictionary<int, string>
 {
     { 1, "Apple" },
     { 2, "Mango" },
     { 3, "Banana" }
 };
 
-// Add new entry with Amit's lucky number 0
-fruitDictionary.Add(0, "Special Fruit"); // Using Amit's lucky number as key
+fruitDict.Add(0, "Special Fruit");
 
-Console.WriteLine("Amit's Fruit Dictionary:");
-foreach (var kvp in fruitDictionary)
-{
-    Console.WriteLine($"ID: {kvp.Key}, Fruit: {kvp.Value}");
-}
-
-// Special message for lucky number
-if (fruitDictionary.ContainsKey(0))
-{
-    Console.WriteLine($"Special item with Amit's lucky number (0): {fruitDictionary[0]}");
-}
-
-// Helper method to print list
-void PrintList(List<string> list)
-{
-    foreach (string fruit in list)
-    {
-        Console.WriteLine($"- {fruit}");
-    }
-}
+Console.WriteLine($"Fruit at key 1: {fruitDict[1]}");
+Console.WriteLine($"Fruit at key 2: {fruitDict[2]}");
+Console.WriteLine($"Fruit at key 3: {fruitDict[3]}");
+Console.WriteLine($"Special fruit at key 0: {fruitDict[0]}");
