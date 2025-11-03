@@ -1,6 +1,3 @@
-using System;
-
-// Circle class definition
 public class Circle
 {
     // Constant variable inside class

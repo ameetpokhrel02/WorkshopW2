@@ -1,5 +1,3 @@
-Console.WriteLine("TASK 3: Data Types and Type Conversion");
-
 // 1. Declare variables of different data types
 byte byteValue = 255;
 short shortValue = 32000;
