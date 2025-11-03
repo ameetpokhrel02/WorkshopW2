@@ -1,4 +1,3 @@
-// Task 2: Constants
 Console.WriteLine("TASK 2: Constants");
 
 const double PI = 3.14;
